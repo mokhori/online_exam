@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="rtl">
+
+<style>
+  .jumbotron{
+    margin-bottom: 0px;
+  }
+</style>
+<body>
+  {% include "exam/navbar.html" %}
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <h2 class="display-3 text-info mb-5">سیستم آزمون آنلاین</h2>
+    <p class="display-4 d-none d-sm-block">در آزمون آنلاین شرکت کنید!</p>
+    <p class="lead">ثبت نام کنید تا در اولین آزمون خود شرکت کنید</p>
+
+  
+    <p><strong> سفر خودتونو از اینجا آغاز کنید:</strong></p>
+    <a href="/student/studentsignup" class="btn btn-lg btn-info" style="padding-right: 35px; border-radius: 0%;"> ثبت نام به عنوان دانشجو<i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+    
+    <br><br><br>
+  </div>  
+</section>
+  {% include "exam/footer.html" %}
+
+
+</body>
+
+</html>
